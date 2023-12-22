@@ -1,0 +1,35 @@
+<?php
+
+require_once("./music.php");
+require_once("./video.php");
+
+require_once("./gallery/photo.php");
+require_once('./gallery/animateshow/portrait.php');
+
+use app\gallery\animateshow\portrait;
+use app\gallery\photo;
+use app\music;
+use app\video;
+
+$music = new music();
+$music->play();
+
+$video = new video();
+$video->play();
+
+// method1
+$photo = new \app\gallery\photo();
+$photo->play();
+
+
+// method 2
+$photo = new photo();
+$photo->play();
+
+$portrait = new \app\gallery\animateshow\portrait();
+$portrait->play();
+
+$portrait = new portrait();
+$portrait->play();
+
+?>
