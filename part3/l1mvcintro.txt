@@ -1,0 +1,15 @@
+=>MVC Framework (Model,View,Controller)
+
+=Model
+it's work with database (Select,Insert,Update,Delete)
+communicate with the controller (when controller request or a data to modal ! modal supplies that )
+
+=View
+A view is that part of the application that resperents of data HTML CSS codes for
+
+=Controller
+the controller receives input from the user , process the request (GET,POST,PUT,DELETE)
+
+-------------------------------------------------
+
+Base URL
