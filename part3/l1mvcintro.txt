@@ -12,4 +12,14 @@ the controller receives input from the user , process the request (GET,POST,PUT,
 
 -------------------------------------------------
 
-Base URL
+Base URL = https://dlt.com
+Absolute URL = https://dlt.com/role/index.php
+Relative URL
+    ( i ) Prefix URL  = /roles/
+    ( ii ) Entry Specific URL = show/1.php
+
+
+= Roles/show/1.php
+roles defined as class
+show defined as method
+1 defined as parameter

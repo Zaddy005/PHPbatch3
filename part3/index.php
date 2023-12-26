@@ -6,7 +6,7 @@ echo "<br/>";
 
 
 
-echo $_GET['url'];
+echo $_GET["url"];
 
 //=>For Linux
 //  sudo a2enmod rewrite
